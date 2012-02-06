@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89F2B50E14DFD3D900A6EA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B50D14DFD3D900A6EA8F /* UIKit.framework */; };
+		89F2B51014DFD3D900A6EA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B50F14DFD3D900A6EA8F /* Foundation.framework */; };
+		89F2B51214DFD3D900A6EA8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B51114DFD3D900A6EA8F /* CoreGraphics.framework */; };
+		89F2B51814DFD3D900A6EA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89F2B51614DFD3D900A6EA8F /* InfoPlist.strings */; };
+		89F2B51A14DFD3D900A6EA8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F2B51914DFD3D900A6EA8F /* main.m */; };
+		89F2B51E14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F2B51D14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.m */; };
+		89F2B52114DFD3D900A6EA8F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F2B51F14DFD3D900A6EA8F /* MainStoryboard.storyboard */; };
+		89F2B52414DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F2B52314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.m */; };
+		89F2B52C14DFD3D900A6EA8F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B52B14DFD3D900A6EA8F /* SenTestingKit.framework */; };
+		89F2B52D14DFD3D900A6EA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B50D14DFD3D900A6EA8F /* UIKit.framework */; };
+		89F2B52E14DFD3D900A6EA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B50F14DFD3D900A6EA8F /* Foundation.framework */; };
+		89F2B53614DFD3D900A6EA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89F2B53414DFD3D900A6EA8F /* InfoPlist.strings */; };
+		89F2B53914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F2B53814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89F2B52F14DFD3D900A6EA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89F2B50014DFD3D800A6EA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F2B50814DFD3D900A6EA8F;
+			remoteInfo = iOSLandscapeThreadedImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89F2B50914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLandscapeThreadedImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F2B50D14DFD3D900A6EA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89F2B50F14DFD3D900A6EA8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89F2B51114DFD3D900A6EA8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89F2B51514DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Info.plist */ = {isa = PBXFileReference; path = "iOSLandscapeThreadedImagePicker-Info.plist"; sourceTree = "<group>"; };
+		89F2B51714DFD3D900A6EA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89F2B51914DFD3D900A6EA8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89F2B51B14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Prefix.pch */ = {isa = PBXFileReference; path = "iOSLandscapeThreadedImagePicker-Prefix.pch"; sourceTree = "<group>"; };
+		89F2B51C14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.h */ = {isa = PBXFileReference; path = iOSLandscapeThreadedImagePickerAppDelegate.h; sourceTree = "<group>"; };
+		89F2B51D14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLandscapeThreadedImagePickerAppDelegate.m; sourceTree = "<group>"; };
+		89F2B52014DFD3D900A6EA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		89F2B52214DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.h */ = {isa = PBXFileReference; path = iOSLandscapeThreadedImagePickerViewController.h; sourceTree = "<group>"; };
+		89F2B52314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLandscapeThreadedImagePickerViewController.m; sourceTree = "<group>"; };
+		89F2B52A14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLandscapeThreadedImagePickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F2B52B14DFD3D900A6EA8F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		89F2B53314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests-Info.plist */ = {isa = PBXFileReference; path = "iOSLandscapeThreadedImagePickerTests-Info.plist"; sourceTree = "<group>"; };
+		89F2B53514DFD3D900A6EA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89F2B53714DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.h */ = {isa = PBXFileReference; path = iOSLandscapeThreadedImagePickerTests.h; sourceTree = "<group>"; };
+		89F2B53814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLandscapeThreadedImagePickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89F2B50614DFD3D900A6EA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2B50E14DFD3D900A6EA8F /* UIKit.framework in Frameworks */,
+				89F2B51014DFD3D900A6EA8F /* Foundation.framework in Frameworks */,
+				89F2B51214DFD3D900A6EA8F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F2B52614DFD3D900A6EA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2B52C14DFD3D900A6EA8F /* SenTestingKit.framework in Frameworks */,
+				89F2B52D14DFD3D900A6EA8F /* UIKit.framework in Frameworks */,
+				89F2B52E14DFD3D900A6EA8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89F2B4FE14DFD3D800A6EA8F = {
+			isa = PBXGroup;
+			children = (
+				89F2B51314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker */,
+				89F2B53114DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests */,
+				89F2B50C14DFD3D900A6EA8F /* Frameworks */,
+				89F2B50A14DFD3D900A6EA8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89F2B50A14DFD3D900A6EA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F2B50914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker.app */,
+				89F2B52A14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89F2B50C14DFD3D900A6EA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F2B50D14DFD3D900A6EA8F /* UIKit.framework */,
+				89F2B50F14DFD3D900A6EA8F /* Foundation.framework */,
+				89F2B51114DFD3D900A6EA8F /* CoreGraphics.framework */,
+				89F2B52B14DFD3D900A6EA8F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F2B51314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				89F2B51C14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.h */,
+				89F2B51D14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.m */,
+				89F2B51F14DFD3D900A6EA8F /* MainStoryboard.storyboard */,
+				89F2B52214DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.h */,
+				89F2B52314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.m */,
+				89F2B51414DFD3D900A6EA8F /* Supporting Files */,
+			);
+			path = iOSLandscapeThreadedImagePicker;
+			sourceTree = "<group>";
+		};
+		89F2B51414DFD3D900A6EA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F2B51514DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Info.plist */,
+				89F2B51614DFD3D900A6EA8F /* InfoPlist.strings */,
+				89F2B51914DFD3D900A6EA8F /* main.m */,
+				89F2B51B14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89F2B53114DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				89F2B53714DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.h */,
+				89F2B53814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m */,
+				89F2B53214DFD3D900A6EA8F /* Supporting Files */,
+			);
+			path = iOSLandscapeThreadedImagePickerTests;
+			sourceTree = "<group>";
+		};
+		89F2B53214DFD3D900A6EA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F2B53314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests-Info.plist */,
+				89F2B53414DFD3D900A6EA8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89F2B50814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F2B53C14DFD3D900A6EA8F /* Build configuration list for PBXNativeTarget "iOSLandscapeThreadedImagePicker" */;
+			buildPhases = (
+				89F2B50514DFD3D900A6EA8F /* Sources */,
+				89F2B50614DFD3D900A6EA8F /* Frameworks */,
+				89F2B50714DFD3D900A6EA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLandscapeThreadedImagePicker;
+			productName = iOSLandscapeThreadedImagePicker;
+			productReference = 89F2B50914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89F2B52914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F2B53F14DFD3D900A6EA8F /* Build configuration list for PBXNativeTarget "iOSLandscapeThreadedImagePickerTests" */;
+			buildPhases = (
+				89F2B52514DFD3D900A6EA8F /* Sources */,
+				89F2B52614DFD3D900A6EA8F /* Frameworks */,
+				89F2B52714DFD3D900A6EA8F /* Resources */,
+				89F2B52814DFD3D900A6EA8F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F2B53014DFD3D900A6EA8F /* PBXTargetDependency */,
+			);
+			name = iOSLandscapeThreadedImagePickerTests;
+			productName = iOSLandscapeThreadedImagePickerTests;
+			productReference = 89F2B52A14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89F2B50014DFD3D800A6EA8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 89F2B50314DFD3D800A6EA8F /* Build configuration list for PBXProject "iOSLandscapeThreadedImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89F2B4FE14DFD3D800A6EA8F;
+			productRefGroup = 89F2B50A14DFD3D900A6EA8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89F2B50814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker */,
+				89F2B52914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89F2B50714DFD3D900A6EA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2B51814DFD3D900A6EA8F /* InfoPlist.strings in Resources */,
+				89F2B52114DFD3D900A6EA8F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F2B52714DFD3D900A6EA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2B53614DFD3D900A6EA8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89F2B52814DFD3D900A6EA8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89F2B50514DFD3D900A6EA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2B51A14DFD3D900A6EA8F /* main.m in Sources */,
+				89F2B51E14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.m in Sources */,
+				89F2B52414DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F2B52514DFD3D900A6EA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2B53914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89F2B53014DFD3D900A6EA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89F2B50814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker */;
+			targetProxy = 89F2B52F14DFD3D900A6EA8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89F2B51614DFD3D900A6EA8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89F2B51714DFD3D900A6EA8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89F2B51F14DFD3D900A6EA8F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89F2B52014DFD3D900A6EA8F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		89F2B53414DFD3D900A6EA8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89F2B53514DFD3D900A6EA8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89F2B53A14DFD3D900A6EA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89F2B53B14DFD3D900A6EA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89F2B53D14DFD3D900A6EA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSLandscapeThreadedImagePicker/iOSLandscapeThreadedImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "iOSLandscapeThreadedImagePicker/iOSLandscapeThreadedImagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89F2B53E14DFD3D900A6EA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSLandscapeThreadedImagePicker/iOSLandscapeThreadedImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "iOSLandscapeThreadedImagePicker/iOSLandscapeThreadedImagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		89F2B54014DFD3D900A6EA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSLandscapeThreadedImagePicker.app/iOSLandscapeThreadedImagePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSLandscapeThreadedImagePicker/iOSLandscapeThreadedImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "iOSLandscapeThreadedImagePickerTests/iOSLandscapeThreadedImagePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		89F2B54114DFD3D900A6EA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSLandscapeThreadedImagePicker.app/iOSLandscapeThreadedImagePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSLandscapeThreadedImagePicker/iOSLandscapeThreadedImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "iOSLandscapeThreadedImagePickerTests/iOSLandscapeThreadedImagePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89F2B50314DFD3D800A6EA8F /* Build configuration list for PBXProject "iOSLandscapeThreadedImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F2B53A14DFD3D900A6EA8F /* Debug */,
+				89F2B53B14DFD3D900A6EA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F2B53C14DFD3D900A6EA8F /* Build configuration list for PBXNativeTarget "iOSLandscapeThreadedImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F2B53D14DFD3D900A6EA8F /* Debug */,
+				89F2B53E14DFD3D900A6EA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89F2B53F14DFD3D900A6EA8F /* Build configuration list for PBXNativeTarget "iOSLandscapeThreadedImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F2B54014DFD3D900A6EA8F /* Debug */,
+				89F2B54114DFD3D900A6EA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89F2B50014DFD3D800A6EA8F /* Project object */;
+}
