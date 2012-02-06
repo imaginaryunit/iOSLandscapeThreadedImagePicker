@@ -20,6 +20,7 @@
 		89F2B52E14DFD3D900A6EA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B50F14DFD3D900A6EA8F /* Foundation.framework */; };
 		89F2B53614DFD3D900A6EA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89F2B53414DFD3D900A6EA8F /* InfoPlist.strings */; };
 		89F2B53914DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F2B53814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m */; };
+		89F2B54314DFD47B00A6EA8F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F2B54214DFD47B00A6EA8F /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		89F2B50D14DFD3D900A6EA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		89F2B50F14DFD3D900A6EA8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89F2B51114DFD3D900A6EA8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		89F2B51514DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Info.plist */ = {isa = PBXFileReference; path = "iOSLandscapeThreadedImagePicker-Info.plist"; sourceTree = "<group>"; };
+		89F2B51514DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSLandscapeThreadedImagePicker-Info.plist"; sourceTree = "<group>"; };
 		89F2B51714DFD3D900A6EA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89F2B51914DFD3D900A6EA8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		89F2B51B14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Prefix.pch */ = {isa = PBXFileReference; path = "iOSLandscapeThreadedImagePicker-Prefix.pch"; sourceTree = "<group>"; };
-		89F2B51C14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.h */ = {isa = PBXFileReference; path = iOSLandscapeThreadedImagePickerAppDelegate.h; sourceTree = "<group>"; };
+		89F2B51B14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSLandscapeThreadedImagePicker-Prefix.pch"; sourceTree = "<group>"; };
+		89F2B51C14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSLandscapeThreadedImagePickerAppDelegate.h; sourceTree = "<group>"; };
 		89F2B51D14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLandscapeThreadedImagePickerAppDelegate.m; sourceTree = "<group>"; };
 		89F2B52014DFD3D900A6EA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		89F2B52214DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.h */ = {isa = PBXFileReference; path = iOSLandscapeThreadedImagePickerViewController.h; sourceTree = "<group>"; };
+		89F2B52214DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSLandscapeThreadedImagePickerViewController.h; sourceTree = "<group>"; };
 		89F2B52314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLandscapeThreadedImagePickerViewController.m; sourceTree = "<group>"; };
 		89F2B52A14DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLandscapeThreadedImagePickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F2B52B14DFD3D900A6EA8F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		89F2B53314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests-Info.plist */ = {isa = PBXFileReference; path = "iOSLandscapeThreadedImagePickerTests-Info.plist"; sourceTree = "<group>"; };
+		89F2B53314DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSLandscapeThreadedImagePickerTests-Info.plist"; sourceTree = "<group>"; };
 		89F2B53514DFD3D900A6EA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		89F2B53714DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.h */ = {isa = PBXFileReference; path = iOSLandscapeThreadedImagePickerTests.h; sourceTree = "<group>"; };
+		89F2B53714DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSLandscapeThreadedImagePickerTests.h; sourceTree = "<group>"; };
 		89F2B53814DFD3D900A6EA8F /* iOSLandscapeThreadedImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLandscapeThreadedImagePickerTests.m; sourceTree = "<group>"; };
+		89F2B54214DFD47B00A6EA8F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F2B54314DFD47B00A6EA8F /* AssetsLibrary.framework in Frameworks */,
 				89F2B50E14DFD3D900A6EA8F /* UIKit.framework in Frameworks */,
 				89F2B51014DFD3D900A6EA8F /* Foundation.framework in Frameworks */,
 				89F2B51214DFD3D900A6EA8F /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		89F2B50C14DFD3D900A6EA8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89F2B54214DFD47B00A6EA8F /* AssetsLibrary.framework */,
 				89F2B50D14DFD3D900A6EA8F /* UIKit.framework */,
 				89F2B50F14DFD3D900A6EA8F /* Foundation.framework */,
 				89F2B51114DFD3D900A6EA8F /* CoreGraphics.framework */,
